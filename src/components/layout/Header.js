@@ -53,7 +53,7 @@ const Header = () => {
 																Categories
 															</Link>
 															<ul className="submenu-home1">
-																{category.map((category) => (
+																{category?.map((category) => (
 																	<li>
 																		<Link to={`/search/${category.name}`}>
 																			{category.name}
